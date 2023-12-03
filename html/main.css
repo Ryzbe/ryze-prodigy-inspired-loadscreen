@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Encode+Sans+Condensed:wght@800&family=Inter:wght@100;400&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Encode+Sans+Condensed:wght@800&family=Inter:wght@100;400&family=Roboto:wght@400;500&display=swap');
+
+
+* {
+    color: #eee;
+    font-size: 30px;
+}
+.bg {
+    background-image: url("./img/bkg.png");
+    overflow: hidden;
+}
+
+
+.container {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.loadbar {
+    width: 100%;
+    background-color: #84da1e;
+    height: 10px;
+
+    margin-left: 2px;
+    margin-right: 3px;
+
+    margin-top: 5px;
+    margin-bottom: 5px;
+
+    overflow: hidden;
+
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    display: block;
+}
+
+.progressBar {
+    width: 10%;
+    background-color: #84da1e;
+    height: 10px;
+
+    position: absolute;
+    left: 10%;
+}
+
+.loading:after {
+    content: ' .';
+    animation: dots 1s steps(5, end) infinite;}
+  
+  @keyframes dots {
+    0%, 20% {
+      color: rgba(0,0,0,0);
+      text-shadow:
+        .25em 0 0 rgba(0,0,0,0),
+        .5em 0 0 rgba(0,0,0,0);}
+    40% {
+      color: white;
+      text-shadow:
+        .25em 0 0 rgba(0,0,0,0),
+        .5em 0 0 rgba(0,0,0,0);}
+    60% {
+      text-shadow:
+        .25em 0 0 white,
+        .5em 0 0 rgba(0,0,0,0);}
+    80%, 100% {
+      text-shadow:
+        .25em 0 0 rgb(255, 255, 255),
+        .5em 0 0 white;}}
+  
+  #particles {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+  }
+  
+  .loading {
+    color: rgb(255, 255, 255);
+    font-size: 1vw;
+    font-family: 'Encode Sans Condensed', sans-serif;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Roboto', sans-serif;
+        -webkit-animation: fade-inout 1s infinite alternate;
+        -moz-animation: fade-inout 1s infinite alternate;
+        -o-animation: fade-inout 1s infinite alternate;
+         animation: fade-inout 1s infinite alternate;
+     }
+
+    @keyframes fade-inout {
+        0%{ opacity: 1;}
+        100%{ opacity: 0;}
+      }
+      /* support for opera */
+      @-o-keyframes fade-inout{
+        0%{ opacity: 1;}
+        100%{ opacity: 0;}
+      }
+      /* support for mozila */
+      @-moz-keyframes fade-inout{
+        0%{ opacity: 1;}
+        100%{ opacity: 0;}
+      }
+      /* support for safari and chrome */
+      @-webkit-keyframes fade-inout{
+        0%{ opacity: 1;}
+        100%{ opacity: 0;}
+      }
+
+  #intro {
+    position: absolute;
+    left: 0;
+    top: 70%;
+    padding: 0 20px;
+    width: 100%;
+    text-align: center;
+  }
+  h1 {
+    text-transform: uppercase;
+    font-size: 85px;
+    font-weight: 700;
+    letter-spacing: 0.015em;
+  }
+  h1::after {
+    content: '';
+    width: 80px;
+    display: block;
+    background: #ffffff;
+    height: 10px;
+    margin: 30px auto;
+    line-height: 1.1;
+  }
+  p {
+    margin: 0 0 30px 0;
+    font-size: 24px;
+  }
+
+.name {
+    color: rgb(255, 255, 255);
+    font-size: 1.5vw;
+    font-family: 'Encode Sans Condensed', sans-serif;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+.session {
+    margin-left: 10px;
+    margin-right: 3px;
+
+    margin-top: 5px;
+    margin-bottom: 25px;
+
+    overflow: hidden;
+
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    display: block;
+}

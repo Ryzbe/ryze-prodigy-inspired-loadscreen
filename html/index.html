@@ -1,0 +1,35 @@
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link rel="stylesheet" media="screen" href="main.css">
+</head>
+
+<body class="bg">
+    <div class="container">
+        <img src="logo.png">
+
+    </div>
+    <div id="audio">
+        <audio controls loop autoplay hidden>
+        <!-- Audio is looped, plays automatically and is hidden -->
+            <source src="song.mp3" type="audio/mp3">
+        </audio>
+    </div>
+    <div class="session"><span style="color: rgb(255, 255, 255); font-size: 12px; font-family: Roboto; font-weight: 700; word-wrap: break-word">INIT_BEFORE_MAP_LOADED</span><span style="color: #84DA1E; font-size: 12px; font-family: Roboto; font-weight: 700; word-wrap: break-word">: COMPLETED</span> <span style="color: rgb(255, 255, 255); font-size: 12px; font-family: Roboto; font-weight: 700; word-wrap: break-word">INIT_AFTER_MAP_LOADED</span><span style="color: #84DA1E; font-size: 12px; font-family: Roboto; font-weight: 700; word-wrap: break-word">: COMPLETED</span> <span style="color: rgb(255, 255, 255); font-size: 12px; font-family: Roboto; font-weight: 700; word-wrap: break-word">INIT_SESSION</span><span style="color: #84DA1E; font-size: 12px; font-family: Roboto; font-weight: 700; word-wrap: break-word">: COMPLETED</span> <span style="color: rgb(255, 255, 255); font-size: 12px; font-family: Roboto; font-weight: 700; word-wrap: break-word">LOAD_MODELS</span><span style="color: #84DA1E; font-size: 12px; font-family: Roboto; font-weight: 700; word-wrap: break-word">: IN PROGRESS</span></div>
+    <div class="loadbar">
+          
+        <div class="progressBar"></div>
+    </div>
+    <div id="intro" style='text-align:center;'>
+        <div>
+            <div class="name" id="namePlaceholder"><span></span>, Welcome to Test Server</div>
+            <div>
+                <p class='loading'>Loading Into Server</p>
+            </div>
+     
+     </div>
+    <script src="main.js"></script>
+</body>
+
+</html>
