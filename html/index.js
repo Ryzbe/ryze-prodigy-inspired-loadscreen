@@ -1,5 +1,3 @@
-
-// From cfx-keks (https://github.com/citizenfx/cfx-server-data/tree/master/resources/%5Btest%5D/keks)
 var count = 0;
 var thisCount = 0;
 
@@ -33,6 +31,5 @@ type="text/javascript">
 window.addEventListener('DOMContentLoaded', () => {
     console.log(`You are connecting to ${window.nuiHandoverData.serverAddress}`);
 
-    // a thing to note is the use of innerText, not innerHTML: names are user input and could contain bad HTML!
     document.querySelector('#namePlaceholder > span').innerText = window.nuiHandoverData.name;
 });
