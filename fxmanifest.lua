@@ -12,7 +12,8 @@ files {
     'html/logo.png',
     'html/index.css',
     'html/index.js',
-    'html/img/bkg.png'
+    'html/img/bkg.png',
+    'html/song.mp3'
 }
 
 client_script 'client.lua'
