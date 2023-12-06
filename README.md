@@ -4,7 +4,8 @@
 - For any support or questions join our [Discord](https://discord.gg/HKu3xVA7m3)
 
 # SHOWCASE
-https://github.com/Ryzbe/ryze-prodigy-inspired-loadscreen/blob/45791653acfe57140621c7dfcba0d7218098ce13/misc/showcase.mp4
+https://github.com/Ryzbe/ryze-prodigy-inspired-loadscreen/assets/101842311/1c1f587f-0f7a-4f34-b792-e4f0e5602f70
+
 
 # Credits
 - Ryze Roadshop
