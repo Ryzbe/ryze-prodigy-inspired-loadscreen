@@ -10,4 +10,6 @@ https://github.com/Ryzbe/ryze-prodigy-inspired-loadscreen/assets/101842311/1c1f5
 # Credits
 - Ryze Roadshop
 
-- 
+# BUGS FIXED
+
+- music fixed
